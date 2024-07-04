@@ -1,0 +1,58 @@
+
+html,body{
+    height: 100%;
+    margin: 0;
+    font-family: "lato",sans-serif;
+    font-weight: 400px;
+    line-height: 1.8em;
+}
+.pimg1{
+    background-image: url(images1/hand-paint.jpg);
+    min-height: 100%;
+
+}
+.pimg2{
+    background-image: url(images1/mountain1.jpg);
+    min-height: 500px;
+
+}
+.pimg3{
+    background-image: url(images1/sunrise.jpg);
+    min-height: 500px;
+
+}
+.pimg1,.pimg2,.pimg3{
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg{
+    background-color: #313534;
+    color: #fff;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: rgb(245, 242, 242);
+    color: rgb(70, 67, 67);
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
